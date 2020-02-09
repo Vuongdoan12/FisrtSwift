@@ -1,0 +1,41 @@
+PODS:
+  - Alamofire (5.0.0-beta.7)
+  - HandyJSON (5.0.1)
+  - Moya/Core (14.0.0-alpha.2):
+    - Alamofire (= 5.0.0-beta.7)
+  - Moya/RxSwift (14.0.0-alpha.2):
+    - Moya/Core
+    - RxSwift (~> 5.0)
+  - RxCocoa (5.0.1):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.0.1):
+    - RxSwift (~> 5)
+  - RxSwift (5.0.1)
+
+DEPENDENCIES:
+  - HandyJSON (~> 5.0.1)
+  - Moya/RxSwift (= 14.0.0-alpha.2)
+  - RxCocoa (~> 5.0)
+  - RxSwift (~> 5.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - HandyJSON
+    - Moya
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+
+SPEC CHECKSUMS:
+  Alamofire: bd07938ceecad59d2492aeecb1f785a8f2721160
+  HandyJSON: d45b8415c501e3affc59ca9762c1197ff0feb646
+  Moya: a6f1894cf6baec301aa02b0ecf10e5d8ade556ae
+  RxCocoa: e741b9749968e8a143e2b787f1dfbff2b63d0a5c
+  RxRelay: 89d54507f4fd4d969e6ec1d4bd7f3673640b4640
+  RxSwift: e2dc62b366a3adf6a0be44ba9f405efd4c94e0c4
+
+PODFILE CHECKSUM: f5cad0e57bc2b692ed9ead2d3b92bddd3ad6201c
+
+COCOAPODS: 1.8.4
