@@ -23,6 +23,7 @@
 		D083F6B323F0019C00224D04 /* ServiceTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = D083F6B223F0019C00224D04 /* ServiceTarget.swift */; };
 		D083F6B523F0026500224D04 /* Provider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D083F6B423F0026500224D04 /* Provider.swift */; };
 		D083F6B823F002F100224D04 /* Ariticel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D083F6B723F002F100224D04 /* Ariticel.swift */; };
+		D083F6BA23F0625700224D04 /* Blog.swift in Sources */ = {isa = PBXBuildFile; fileRef = D083F6B923F0625700224D04 /* Blog.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +71,7 @@
 		D083F6B223F0019C00224D04 /* ServiceTarget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceTarget.swift; sourceTree = "<group>"; };
 		D083F6B423F0026500224D04 /* Provider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Provider.swift; sourceTree = "<group>"; };
 		D083F6B723F002F100224D04 /* Ariticel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ariticel.swift; sourceTree = "<group>"; };
+		D083F6B923F0625700224D04 /* Blog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blog.swift; sourceTree = "<group>"; };
 		E3623D9964F45F79B5A794EA /* Pods-MyAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyAppTests.debug.xcconfig"; path = "Target Support Files/Pods-MyAppTests/Pods-MyAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -187,6 +189,7 @@
 			isa = PBXGroup;
 			children = (
 				D083F6B723F002F100224D04 /* Ariticel.swift */,
+				D083F6B923F0625700224D04 /* Blog.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -418,6 +421,7 @@
 				D083F6AF23EC06D000224D04 /* User.swift in Sources */,
 				D083F6B523F0026500224D04 /* Provider.swift in Sources */,
 				D083F6B123F0013400224D04 /* ViewModel.swift in Sources */,
+				D083F6BA23F0625700224D04 /* Blog.swift in Sources */,
 				D083F6B823F002F100224D04 /* Ariticel.swift in Sources */,
 				D083F6B323F0019C00224D04 /* ServiceTarget.swift in Sources */,
 			);

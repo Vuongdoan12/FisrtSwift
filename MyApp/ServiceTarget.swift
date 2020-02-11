@@ -5,6 +5,7 @@ import Moya
 
 public enum HealthCareTarget {
     case getArticles
+    case getBlogs
 }
 
 extension HealthCareTarget: TargetType {
@@ -16,7 +17,10 @@ extension HealthCareTarget: TargetType {
         switch self {
         case .getArticles:
             return "/articles.json"
+        case .getBlogs:
+            return "/blog.json"
         }
+    
     }
 
     public var method: Moya.Method {

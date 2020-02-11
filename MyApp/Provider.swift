@@ -26,12 +26,11 @@ class HealthCareService: HealthCareServiceProtocol {
     public func requestAriticles(completion: @escaping ((Response, String?) -> Void)) {
         self.provider
             .rx
-            .request(.getArticles)
+            .request(.getBlogs)
             .subscribe(onSuccess: { [weak self] response in
                 let decoder = JSONDecoder()
                 do {
-                    let model = try decoder.decode(Response.self, from:response.data)
-                    print(model)
+                    let model = try decoder.decode([BlogResponse].self, from:response.data)
                 } catch let error {
                     print(error)
                 }
